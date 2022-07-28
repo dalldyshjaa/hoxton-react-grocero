@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+:root {
+  --primary-color: #5068b6;
+  --primary-color-lighter: rgb(115, 136, 202);
+  --primary-color-darker: #314ca7;
+}
+
+/* Typography */
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans", Arial, sans-serif;
+  color: var(--primary-color-darker);
+}
+
+h1,
+h2 {
+  margin-bottom: 1rem;
+}
+
+/* Buttons */
+
+button {
+  padding: 0.25rem 0.5rem;
+
+  text-transform: uppercase;
+  font-size: 0.725rem;
+
+  cursor: pointer;
+}
